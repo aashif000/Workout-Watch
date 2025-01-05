@@ -1,69 +1,92 @@
-# Welcome to your Lovable project
+# Workout Watch
 
-## Project info
+**Workout Watch** is a web application designed to provide users with detailed information on various exercises. It allows users to search, view, and explore exercises based on different categories, muscle groups, and difficulty levels. The application features a clean and intuitive UI with detailed instructions for each exercise, helping users achieve their fitness goals more effectively.
 
-**URL**: https://lovable.dev/projects/6f2052a0-8e87-47da-9d6d-f30c2faa8e44
+## Features
 
-## How can I edit this code?
+- **Search Exercises**: Search for exercises based on their name, category, or muscle groups.
+- **Exercise Details**: View detailed information about each exercise, including level, equipment, mechanic, and primary/secondary muscles.
+- **Exercise Instructions**: Get step-by-step instructions for performing each exercise.
+- **Responsive Design**: The application is designed to be fully responsive, ensuring a seamless experience across all devices.
+- **Dark/Light Mode**: Toggle between dark and light modes for better accessibility and user preferences.
 
-There are several ways of editing your application.
+## Technologies Used
 
-**Use Lovable**
+- **React**: A JavaScript library for building user interfaces.
+- **React Query**: A data-fetching and caching library for managing server state in React applications.
+- **Tailwind CSS**: A utility-first CSS framework for building custom designs.
+- **Lucide Icons**: A collection of open-source icons used for various UI elements.
+- **TypeScript**: A statically typed superset of JavaScript for better code quality and maintainability.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6f2052a0-8e87-47da-9d6d-f30c2faa8e44) and start prompting.
+## Installation
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+Make sure you have the following installed:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Node.js**: A JavaScript runtime for building and running your project.
+- **npm** or **yarn**: A package manager for managing dependencies.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Steps
 
-Follow these steps:
+1. Clone the repository:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+    ```bash
+    git clone https://github.com/your-username/workout-watch.git
+    ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Navigate to the project directory:
 
-# Step 3: Install the necessary dependencies.
-npm i
+    ```bash
+    cd workout-watch
+    ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+3. Install the dependencies:
 
-**Edit a file directly in GitHub**
+    ```bash
+    npm install
+    ```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+    or if you're using yarn:
 
-**Use GitHub Codespaces**
+    ```bash
+    yarn install
+    ```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+4. Run the development server:
 
-## What technologies are used for this project?
+    ```bash
+    npm start
+    ```
 
-This project is built with .
+    or if you're using yarn:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+    ```bash
+    yarn start
+    ```
 
-## How can I deploy this project?
+5. Open the application in your browser by navigating to `http://localhost:3000`.
 
-Simply open [Lovable](https://lovable.dev/projects/6f2052a0-8e87-47da-9d6d-f30c2faa8e44) and click on Share -> Publish.
+## Usage
 
-## I want to use a custom domain - is that possible?
+### Search for Exercises
+- Use the search bar to find exercises by name, category, or muscle group.
+- The application will filter the exercises based on your search query.
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+### View Exercise Details
+- Click on any exercise card to view more details.
+- You will be presented with information like the exercise's level, required equipment, mechanics, and muscles worked.
+- Step-by-step instructions are provided for each exercise.
+
+### Toggle Dark/Light Mode
+- A toggle button is available at the top-right corner of the screen to switch between dark and light modes, enhancing the user experience.
+
+## Contributing
+
+We welcome contributions to this project! If you'd like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Open a pull request to merge your changes into the main branch.
